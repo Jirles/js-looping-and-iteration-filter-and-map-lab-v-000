@@ -12,3 +12,7 @@ function exactMatch(collection, attr_hash){
   const key = Object.keys(attr_hash)[0]
   return collection.filter(driver => driver[key] === attr_hash[key]);
 };
+
+function exactMatchToList(){
+
+};
