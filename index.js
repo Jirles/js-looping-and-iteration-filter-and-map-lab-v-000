@@ -9,5 +9,5 @@ function driverNamesWithRevenueOver(collection, num){
 };
 
 function exactMatch(collection, attr_hash){
-  const key = attr_hash.keys()[0]
+  const key = Object.keys(attr_hash)[0]
 };
