@@ -14,5 +14,6 @@ function exactMatch(collection, attr_hash){
 };
 
 function exactMatchToList(collection, attr_hash){
-  const matchingResults =
+  const matchingResults = exactMatch(collection, attr_hash);
+  return matchingResults.map(driver => driver.name)
 };
