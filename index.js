@@ -4,10 +4,11 @@ function driversWithRevenueOver(collection, num){
 };
 
 function driverNamesWithRevenueOver(collection, num){
-  const drivers = collection.filter(function (driver){ if (driver.revenue > num) {return driver.name } } );
+  const drivers = collection.filter(driver => driver.revenue > num);
   return drivers.map(driver => driver.name);
 };
 
 function exactMatch(collection, attr_hash){
   const key = Object.keys(attr_hash)[0]
+  return collection.filter(driver)
 };
