@@ -3,6 +3,6 @@ function driversWithRevenueOver(collection, num){
   return collection.filter(driver => driver.revenue > num);
 };
 
-function driversNamesWithRevenueOver(collection, num){
+function driverNamesWithRevenueOver(collection, num){
   return collection.filter(driver => driver.revenue > num);
 };
