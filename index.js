@@ -4,6 +4,6 @@ function driversWithRevenueOver(collection, num){
 };
 
 function driverNamesWithRevenueOver(collection, num){
-  const names = collection.filter(function (driver){ if (driver.revenue > num) {return driver.name } } );
-  return names;
+  const drivers = collection.filter(function (driver){ if (driver.revenue > num) {return driver.name } } );
+  return drivers.map(driver => driver.name);
 };
