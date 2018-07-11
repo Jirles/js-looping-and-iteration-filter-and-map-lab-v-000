@@ -13,6 +13,6 @@ function exactMatch(collection, attr_hash){
   return collection.filter(driver => driver[key] === attr_hash[key]);
 };
 
-function exactMatchToList(){
-  const
+function exactMatchToList(collection, attr_hash){
+  const matchingResults =
 };
