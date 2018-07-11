@@ -8,6 +8,6 @@ function driverNamesWithRevenueOver(collection, num){
   return drivers.map(driver => driver.name);
 };
 
-function exactMatch(){
-
+function exactMatch(collection, attr_hash){
+  const key = attr_hash.keys()[0]
 };
